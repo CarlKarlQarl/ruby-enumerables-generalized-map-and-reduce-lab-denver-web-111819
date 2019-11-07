@@ -17,5 +17,5 @@ def reduce(source_array, starting_point = 0)
   source_array.length.times do |index|
     output = yield(output, source_array[index])
   end
-  output
+  return output
 end
