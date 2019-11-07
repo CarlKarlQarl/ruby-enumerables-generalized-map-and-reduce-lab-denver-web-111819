@@ -10,7 +10,7 @@ def reduce(source_array, starting_point = 0)
   output = starting_point
   source_array.length.times do |index|
     if source_array[index] == false
-      output = false
+      output = true
     end
   end
   
